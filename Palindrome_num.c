@@ -11,6 +11,7 @@ int main()
 
     while (num > 0)
     {
+        // Reversing Logic 
         remainder = num % 10;
         reversedNum = reversedNum * 10 + remainder;
         num /= 10;
