@@ -11,7 +11,7 @@ int main()
 
     while (num > 0)
     {
-        // Reversing Logic 
+        // Palindrome logic: reverse the number
         remainder = num % 10;
         reversedNum = reversedNum * 10 + remainder;
         num /= 10;
